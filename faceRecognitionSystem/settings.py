@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'nischay.urls'
+ROOT_URLCONF = 'faceRecognitionSystem.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'nischay.wsgi.application'
+WSGI_APPLICATION = 'faceRecognitionSystem.wsgi.application'
 
 
 # Database
